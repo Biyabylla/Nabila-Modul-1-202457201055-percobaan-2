@@ -16,15 +16,15 @@ public class NabilaModul1_202457201055_Percobaan2 {
     public static void main(String[] args) {
         //PERCOBAAN KEDUA
         String [][] data = {
-            {"ABDUL", "085646668991", "Kediri"},
-            {"KUSNO", "085646668992", "Trenggalek"},
-            {"PONIRAN", "085646668999", "Bojonegoro"},
+            {"ABDUL", "Kediri", "085646668991"},
+            {"KUSNO", "Trenggalek", "085646668992"},
+            {"PONIRAN", "Bojonegoro", "085646668999"},
         };
         System.out.println("-------------+--------------+---------------");
         System.out.printf("| %-10s | %-12s | %-12s |%n", 
                 centerText("NAMA", 10), 
-                centerText("TELEPON", 12), 
-                centerText("ALAMAT", 12)
+                centerText("ALAMAT", 12), 
+                centerText("TELEPON", 12)
         );
         System.out.println("-------------+--------------+---------------");
         
